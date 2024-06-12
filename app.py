@@ -129,7 +129,8 @@ with col1:
     # Education Section
     st.header("Education",divider="rainbow")
     for edu in education:
-        st.subheader(f"[{edu["institution"]}]({edu['url']})")
+        e=edu["institution"]
+        st.subheader(f"[{e}]({edu['url']})")
         col1, col2 = st.columns([3, 1])
         with col1:
             st.write(f"**{edu['degree']}**")
@@ -141,7 +142,8 @@ with col3:
     # Projects Section
     st.header("Projects",divider="rainbow")
     for project in projects:
-        st.subheader(f"[{project["title"]}]({project['link']})")
+        p=project["title"]
+        st.subheader(f"[{p}]({project['link']})")
         st.write(f"Technologies: {project['technologies']}")
 
 col1, col2,col3 = st.columns([3,0.5,3])
@@ -151,7 +153,8 @@ with col1:
     for cert in certifications:
         col1,c, col2 = st.columns([3,1, 1])
         with col1:
-            st.subheader(f"[{cert["title"]}]({cert['url']})")
+            c=cert["title"]
+            st.subheader(f"[{c}]({cert['url']})")
             st.write(f"Issuer: {cert['issuer']}")
         with col2:
             st.write(f"{cert['date']}")
@@ -159,7 +162,8 @@ with col3:
 
     # Publication Section
     st.header("Publication",divider="rainbow")
-    st.subheader(f"[{publication["title"]}]({publication['url']})")
+    pu=publication["title"]
+    st.subheader(f"[{pu}]({publication['url']})")
     st.write(f"Journal: {publication['journal']}")
     st.write(f"Date: {publication['date']}")
 
