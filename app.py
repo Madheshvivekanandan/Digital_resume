@@ -54,6 +54,11 @@ skills = {
 
 # Projects
 projects = [
+     {
+        "title": "Deployment GUVI GPT Model using Hugging Face",
+        "technologies": "Deep Learning,Hugging face,LLM, Streamlit",
+        "link": "https://github.com/Madheshvivekanandan/Guvi_final"
+    },
     {
         "title": "YouTube Data Harvesting and Warehousing using SQL and Streamlit",
         "technologies": "Python, Streamlit, Mysql",
