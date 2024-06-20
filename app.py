@@ -112,14 +112,13 @@ st.set_page_config(page_title="Resume - Madhesh Vivekanandan", layout="wide")
 # Fetch the PDF content
 response = requests.get(pdf_url)
 pdf_data = response.content
-
+st.write("Note: The text in blue color are hyperlinks. If clicked, they will redirect to their respective sites/pages")
 st.download_button(
         label="Download Resume PDF",
         data=pdf_data,
         file_name="Madhesh vivekanandan_resume.pdf",
         mime="application/pdf"
     )
-st.write("Note: The text in blue color are hyperlinks. If clicked, they will redirect to their respective sites/pages")
 col1, col2,col3 = st.columns([2,2,2])
 with col2:
     st.title(name)
