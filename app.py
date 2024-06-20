@@ -104,8 +104,8 @@ publication = {
     "url":"http://www.jetir.org/view?paper=JETIR2403757"
 }
 # Resume File
-pdf_url="https://drive.google.com/file/d/1RXoWBmp2JkV3p3Pc2kdjdHKkF7XXjsN_/view?usp=sharing"
-# pdf_url = "https://drive.google.com/uc?export=download&id=1AKwizFvyWuAC179-DAjq8z82bBJlGGLw"
+resume_url="https://drive.google.com/file/d/1RXoWBmp2JkV3p3Pc2kdjdHKkF7XXjsN_/view?usp=sharing"
+pdf_url = "https://drive.google.com/uc?export=download&id=1AKwizFvyWuAC179-DAjq8z82bBJlGGLw"
 
 # Streamlit Page Configuration
 st.set_page_config(page_title="Resume - Madhesh Vivekanandan", layout="wide")
