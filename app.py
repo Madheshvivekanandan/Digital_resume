@@ -116,7 +116,7 @@ pdf_data = response.content
 st.download_button(
         label="Download Resume PDF",
         data=pdf_data,
-        file_name="Madhesh_vivekanandan_resume.pdf",
+        file_name="Madhesh vivekanandan_resume.pdf",
         mime="application/pdf"
     )
 st.write("Note: The text in blue color are hyperlinks. If clicked, they will redirect to their respective sites/pages")
