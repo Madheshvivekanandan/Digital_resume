@@ -92,8 +92,8 @@ certifications = [
     {"title": "Business English Certificates (BEC)", "issuer": "Cambridge University", "date": "Oct 2022","url":"https://drive.google.com/file/d/1xeSDwWQblwOMJyVa2kGPpduaPcwaKggl/view?usp=drive_link"},
     {"title": "NPTEL(Introduction to Programming In C)", "issuer": "Indian Institute of Technology Kanpur", "date": "Mar 2023","url":"https://drive.google.com/file/d/1uXht9sX1iYx-N2oJRtCe9rsnmLXDhOg6/view?usp=drive_link"},
     {"title": "Chatgpt for Everyone", "issuer": "Guvi", "date": "Apr 2024","url":"https://drive.google.com/file/d/1jApjggJFZAP-FwmE7JViXSM7XTmk5umU/view?usp=drive_link"},
-    {"title": "Accenture North America - Data Analytics and Visualization Job Simulation", "issuer": "Forage", "date": "Mar 2024","url":"https://drive.google.com/file/d/1_psh5fNDC-oZgMxkpFFyGdgO_tJyZd7Z/view?usp=drive_link"}
-    {"title": "Tableau", "issuer": "Guvi", "date": "June 2024","url":"https://drive.google.com/file/d/1lv5hkOpyzdsYGVKOK3GwZlmeqrCaRnnk/view?usp=drive_link"},
+    {"title": "Accenture North America - Data Analytics and Visualization Job Simulation", "issuer": "Forage", "date": "Mar 2024","url":"https://drive.google.com/file/d/1_psh5fNDC-oZgMxkpFFyGdgO_tJyZd7Z/view?usp=drive_link"},
+    {"title": "Tableau", "issuer": "Guvi", "date": "June 2024","url":"https://drive.google.com/file/d/1lv5hkOpyzdsYGVKOK3GwZlmeqrCaRnnk/view?usp=drive_link"}
 ]
 
 # Publication
