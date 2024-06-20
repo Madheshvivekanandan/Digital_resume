@@ -93,6 +93,7 @@ certifications = [
     {"title": "NPTEL(Introduction to Programming In C)", "issuer": "Indian Institute of Technology Kanpur", "date": "Mar 2023","url":"https://drive.google.com/file/d/1uXht9sX1iYx-N2oJRtCe9rsnmLXDhOg6/view?usp=drive_link"},
     {"title": "Chatgpt for Everyone", "issuer": "Guvi", "date": "Apr 2024","url":"https://drive.google.com/file/d/1jApjggJFZAP-FwmE7JViXSM7XTmk5umU/view?usp=drive_link"},
     {"title": "Accenture North America - Data Analytics and Visualization Job Simulation", "issuer": "Forage", "date": "Mar 2024","url":"https://drive.google.com/file/d/1_psh5fNDC-oZgMxkpFFyGdgO_tJyZd7Z/view?usp=drive_link"}
+    {"title": "Tableau", "issuer": "Guvi", "date": "June 2024","url":"https://drive.google.com/file/d/1lv5hkOpyzdsYGVKOK3GwZlmeqrCaRnnk/view?usp=drive_link"},
 ]
 
 # Publication
@@ -103,8 +104,8 @@ publication = {
     "url":"http://www.jetir.org/view?paper=JETIR2403757"
 }
 # Resume File
-resume_file="https://drive.google.com/file/d/1AKwizFvyWuAC179-DAjq8z82bBJlGGLw/view?usp=sharing"
-pdf_url = "https://drive.google.com/uc?export=download&id=1AKwizFvyWuAC179-DAjq8z82bBJlGGLw"
+pdf_url="https://drive.google.com/file/d/1RXoWBmp2JkV3p3Pc2kdjdHKkF7XXjsN_/view?usp=sharing"
+# pdf_url = "https://drive.google.com/uc?export=download&id=1AKwizFvyWuAC179-DAjq8z82bBJlGGLw"
 
 # Streamlit Page Configuration
 st.set_page_config(page_title="Resume - Madhesh Vivekanandan", layout="wide")
@@ -115,7 +116,7 @@ pdf_data = response.content
 st.download_button(
         label="Download Resume PDF",
         data=pdf_data,
-        file_name="your_file.pdf",
+        file_name="Madhesh_vivekanandan_resume.pdf",
         mime="application/pdf"
     )
 st.write("Note: The text in blue color are hyperlinks. If clicked, they will redirect to their respective sites/pages")
